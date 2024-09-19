@@ -1,0 +1,78 @@
+// @import "base";
+// You need the base only when you are not using bootstrap. In that case, go to _base.scss
+// to customize it as you may want.
+
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Write your sass code here or import partials
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffff;
+  color: #1A1A1A;
+
+}
+.container {
+  max-width: 375px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.perfecthome-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}  
+
+.perfect {
+  width: 300px;
+  background-color: #ffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.564);
+  text-align: left;
+
+}
+.icon {
+  width: 35px;
+  height: 35px;
+  background: rgb(231, 200, 115);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.564);
+  margin: auto;
+
+
+}
+img {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-align: center;
+}
+.perfect h3 {
+   margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
+  
+  
+}
+.perfecthome-section p {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  opacity: 0.8;
+text-align: justify;
+}
+.perfecthome-section h2 {
+  font-size: 20px;
+  font-weight: bolder;
+
+}
